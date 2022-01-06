@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/roundcorner"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/krungsri_simple"
+                android:layout_marginTop="75dp"
+                android:layout_marginLeft="50dp"
+                android:text="Krungsri"
+                android:textColor="#6e5e5e"
+                android:textSize="23.4sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="145dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/krungsri_simple"
+                android:layout_marginTop="105dp"
+                android:layout_marginLeft="50dp"
+                android:text="i-CONFIRM"
+                android:textColor="#6e5e5e"
+                android:textSize="32.3sp" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#4d4d4d"
+            android:lineSpacingExtra="-6sp"
+            android:textSize="20sp"
+            android:fontFamily="@font/krungsri_con_med"
+            android:text="บริการยืนยันตัวตนกับ\nกรุงศรี i-CONFIRM" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="183dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="#ffe200" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:weightSum="4.5"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:id="@+id/frame_KMA"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/images_2">
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/frame_KEPT"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/group">
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/frame_UCHOOSE"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/icon_uchoose">
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/frame_KSS"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/icon_kss"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:weightSum="4.5"
+            android:orientation="horizontal">
+            <View
+                android:id="@+id/flag_kma"
+                android:layout_width="55dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"/>
+            <View
+                android:id="@+id/flag_kept"
+                android:layout_width="55dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"/>
+            <View
+                android:id="@+id/flag_uchoose"
+                android:layout_width="55dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/krungsri_con_bol"
+            android:gravity="center_horizontal"
+            android:text="เริ่มเลย"
+            android:textSize="16sp"
+            android:background="@drawable/btn_round_ok"
+            android:textColor="@color/greyish_brown" />
+    </LinearLayout>
+
+</LinearLayout>

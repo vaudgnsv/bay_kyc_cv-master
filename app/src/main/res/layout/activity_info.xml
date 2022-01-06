@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="311.5dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krungsri_con_med"
+                android:gravity="center"
+                android:text="Terminal ID : "
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/txt_tid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krungsri_con_bol"
+                android:gravity="center"
+                android:text="20201225"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krungsri_con_med"
+                android:gravity="center"
+                android:text="Merchant ID : "
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/txt_mid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krungsri_con_bol"
+                android:gravity="center"
+                android:text="000000000012345"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krungsri_con_med"
+                android:gravity="center"
+                android:text="Primary IP : "
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/txt_ip"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krungsri_con_bol"
+                android:gravity="center"
+                android:text="111.222.333.444"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krungsri_con_med"
+                android:gravity="center"
+                android:text="Primary PORT : "
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/txt_port"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krungsri_con_bol"
+                android:gravity="center"
+                android:text="1212"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krungsri_con_med"
+                android:gravity="center"
+                android:text="Secondary IP : "
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/txt_ip2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krungsri_con_bol"
+                android:gravity="center"
+                android:text="111.222.333.444"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krungsri_con_med"
+                android:gravity="center"
+                android:text="Secondary PORT : "
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/txt_port2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/krungsri_con_bol"
+                android:gravity="center"
+                android:text="1212"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="138.5dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="17dp"
+        android:background="#ffe200" />
+
+    <TextView
+        android:layout_width="311.5dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/krungsri_con_med"
+        android:text="If you want to modify any value, Please contact to THAIVAN."
+        android:textSize="18sp"
+        android:textColor="@color/greyish_brown"
+        android:lineSpacingExtra="-6sp"
+        android:background="@drawable/success_round" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff" >
+
+        <Button
+            android:id="@+id/okbtn"
+            android:layout_width="280.5dp"
+            android:layout_height="55.5dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/krungsri_con_med"
+            android:onClick="Finish"
+            android:text="ตกลง"
+            android:textSize="20sp"
+            android:textColor="@color/greyish_brown"
+            android:background="@drawable/btn_round_ok" />
+
+    </RelativeLayout>
+</LinearLayout>

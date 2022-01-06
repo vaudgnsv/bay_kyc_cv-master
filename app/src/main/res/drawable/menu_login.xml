@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!--<solid android:color="#020f4d" /> --><!--อันเก่า สีน้ำเงิน-->
+    <solid android:color="@color/bayyellow" />
+    <!--<stroke-->
+        <!--android:width="2.5dp"-->
+        <!--android:color="#00000000" />-->
+    <!--android:color="#ffffff" />--> <!--อันเก่า ขอบสีขาว-->
+    <corners android:radius="10dp" />
+</shape>

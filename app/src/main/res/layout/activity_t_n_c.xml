@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56.5dp"
+        android:textSize="20dp"
+        android:lineSpacingExtra="-6sp"
+        android:textColor="@color/greyish_brown"
+        android:fontFamily="@font/krungsri_con_bol"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:text="TNC" />
+    <View
+        android:id="@+id/view1"
+        android:layout_width="183dp"
+        android:layout_height="3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text1"
+        android:layout_marginTop="11dp"
+        android:background="#ffe200" />
+
+    <RelativeLayout
+        android:id="@+id/Relative1"
+        android:layout_width="match_parent"
+        android:layout_height="123.5dp"
+        android:layout_below="@id/view1"
+        android:layout_marginTop="36dp">
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/greyish_brown"
+            android:fontFamily="@font/krungsri_con_bol"
+            android:lineSpacingExtra="-6sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="10dp"
+            android:text="1. QR code สำหรับ\n    ยืนยันตัวตน"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2"
+            android:layout_alignStart="@id/text2"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="1dp"
+            android:fontFamily="@font/krungsri_con_med"
+            android:lineSpacingExtra="-6sp"
+            android:text="เปิดหน้าจอแอปพลิเคชัน\nแสดง QR code"
+            android:textColor="@color/greyish_brown"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="113.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="24.5dp"
+            app:srcCompat="@drawable/group_4"
+            android:contentDescription="TODO" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Relative2"
+        android:layout_width="match_parent"
+        android:layout_height="123.5dp"
+        android:layout_below="@id/Relative1"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/greyish_brown"
+            android:fontFamily="@font/krungsri_con_bol"
+            android:layout_alignParentTop="true"
+            android:lineSpacingExtra="-6sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="25dp"
+            android:text="2. บัตรประชาชน" />
+
+        <TextView
+            android:layout_below="@id/text3"
+            android:layout_alignStart="@id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/greyish_brown"
+            android:fontFamily="@font/krungsri_con_med"
+            android:lineSpacingExtra="-6sp"
+            android:layout_marginStart="17dp"
+            android:text="เตรียมบัตรประชาชน\nเพื่อยืนยันตัวตน"/>
+        <ImageView
+            android:layout_width="113.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="24.5dp"
+            app:srcCompat="@drawable/iccard"
+            android:contentDescription="TODO" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="160dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/btn_round_cancel"
+            android:fontFamily="@font/krungsri_con_med"
+            android:text="ยกเลิก"
+            android:textColor="#ffdd00"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="160dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/btn_round_ok"
+            android:fontFamily="@font/krungsri_con_med"
+            android:text="ยอมรับ"
+            android:textColor="@color/greyish_brown"
+            android:textSize="20sp"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

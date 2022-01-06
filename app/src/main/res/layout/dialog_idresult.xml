@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IDresultActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/item_menu"
+            layout="@layout/custom_toolbar"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <LinearLayout
+                android:layout_width="331.5dp"
+                android:layout_height="397.5dp"
+                android:layout_marginTop="84dp"
+                android:layout_marginStart="12.5dp"
+                android:orientation="vertical"
+                android:background="@drawable/idresult_frame">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17.5dp"
+                    android:layout_marginTop="34dp"
+                    android:text="บัตรประชาชนเลขที่: "
+                    android:fontFamily="@font/krungsri_con"
+                    android:textColor="#b3b3b3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/txt_citizenid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17.5dp"
+                    android:text="1 1234 12345 12 1"
+                    android:fontFamily="@font/krungsri_con_med"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17.5dp"
+                    android:text="ชื่อ-นามสกุล: "
+                    android:fontFamily="@font/krungsri_con"
+                    android:textColor="#b3b3b3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/txt_thainame"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17.5dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/krungsri_con_med"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17.5dp"
+                    android:text="Name-Lastname:"
+                    android:fontFamily="@font/krungsri_con"
+                    android:textColor="#b3b3b3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/txt_engname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17.5dp"
+                    android:text="Mr P"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/krungsri_con_med"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17.5dp"
+                    android:text="วันเกิด:"
+                    android:fontFamily="@font/krungsri_con"
+                    android:textColor="#b3b3b3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/txt_birth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17.5dp"
+                    android:text="12 Dec 1990"
+                    android:fontFamily="@font/krungsri_con_med"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17.5dp"
+                    android:text="ที่อยู่:"
+                    android:fontFamily="@font/krungsri_con"
+                    android:textColor="#b3b3b3"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/txt_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17.5dp"
+                    android:lineSpacingExtra="-6sp"
+                    android:text="ABCD"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/krungsri_con_med"
+                    android:textSize="14dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17.5dp"
+                    android:text="วันบัตรหมดอายุ:"
+                    android:fontFamily="@font/krungsri_con"
+                    android:textColor="#b3b3b3"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/txt_expire"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17.5dp"
+                    android:text="12 Dec 1990"
+                    android:fontFamily="@font/krungsri_con_med"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17.5dp"
+                    android:paddingTop="10dp"
+                    android:text="รหัสไปรษณีย์:"
+                    android:textColor="#b3b3b3"
+                    android:fontFamily="@font/krungsri_con"
+                    android:background="@drawable/dash_textbox"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/txt_Zipcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17.5dp"
+                    android:text="00000"
+                    android:fontFamily="@font/krungsri_con_med"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17.5dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/krungsri_con_med"
+                    android:textSize="14dp"/>
+
+
+            </LinearLayout>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_pic"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                android:src="@drawable/group_unknown"
+                tools:srcCompat="@tools:sample/avatars" />
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="160dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/btn_round_cancel"
+            android:fontFamily="@font/krungsri_con_med"
+            android:text="ยกเลิก"
+            android:textColor="#ffdd00"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="160dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/btn_round_ok"
+            android:fontFamily="@font/krungsri_con_med"
+            android:text="ยืนยัน"
+            android:textColor="@color/greyish_brown"
+            android:textSize="20sp"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

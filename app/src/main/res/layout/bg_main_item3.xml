@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/roundcorner"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/krungsri_simple"
+                android:layout_marginTop="120dp"
+                android:layout_marginLeft="50dp"
+                android:text="Krungsri"
+                android:textColor="#6e5e5e"
+                android:textSize="23.4sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="65dp"
+                android:layout_marginLeft="145dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/krungsri_simple"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="50dp"
+                android:text="i-CONFIRM"
+                android:textColor="#6e5e5e"
+                android:textSize="32.3sp" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#4d4d4d"
+            android:lineSpacingExtra="-6sp"
+            android:textSize="20sp"
+            android:fontFamily="@font/krungsri_con_bol"
+            android:text="คุณต้องการยืนยันตัวตน\nเพื่อเข้าใช้งานแอปพลิเคชันใด" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="183dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:background="#ffe200" />
+
+        <LinearLayout
+            android:id="@+id/linear_KMA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4.5"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/images_2" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3.5"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:text="KMA"
+                    android:fontFamily="@font/krungsri_con_med"
+                    android:textColor="#4d4d4d"
+                    android:textSize="16sp"  />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_Mirai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="281.5dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="6dp"
+                app:srcCompat="@drawable/dot"
+                android:scaleType="centerInside"
+                android:layerType="software"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4.5"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/group" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3.5"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:text="Kept"
+                    android:fontFamily="@font/krungsri_con_med"
+                    android:textColor="#4d4d4d"
+                    android:textSize="16sp"  />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_Uchoose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="281.5dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="6dp"
+                app:srcCompat="@drawable/dot"
+                android:scaleType="centerInside"
+                android:layerType="software"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4.5"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icon_uchoose" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3.5"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:text="UChoose"
+                    android:fontFamily="@font/krungsri_con_med"
+                    android:textColor="#4d4d4d"
+                    android:textSize="16sp"  />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

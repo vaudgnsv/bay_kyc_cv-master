@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background= "@drawable/toolbar"
+    android:minHeight="?attr/actionBarSize"
+    app:popupTheme="@style/ToolAppTheme"
+    app:theme="@style/ToolAppTheme"
+    android:id="@+id/toolbar"
+    >
+
+    <TextView
+        android:id="@+id/toolbar_btn"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="left"
+        android:background="@drawable/left"
+        android:onClick="back_menu"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toolbar Title"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/toolbar_title"
+        android:lineSpacingExtra ="-8dp"
+        android:fontFamily="@font/krungsri_con_med"
+        android:textColor="@color/greyish_brown"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/toolbar_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:background="@android:drawable/stat_notify_sync_noanim"
+        android:visibility="invisible" />
+
+</androidx.appcompat.widget.Toolbar>

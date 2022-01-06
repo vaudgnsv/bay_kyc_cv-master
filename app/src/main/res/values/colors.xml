@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_background">#91c1d6</color>
+    <color name="color_toolbar">#aadddddd</color>
+    <color name="color_gray">#808080</color>
+    <color name="color_green">#1DDB16</color>
+    <color name="color_purple">#4472C4</color>
+    <color name="color_btn_background">#04113a</color>
+    <color name="color_toolbar_health">#3F51B5</color>
+    <color name="color_toolbar_re">#FFFEFF</color>
+    <color name="color_White">#FFFFFF</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_ktb">#38A1DB</color>
+    <color name="color_black">#000000</color>
+    <color name="color_clear">#00000000</color>
+    <color name="color_btn_red">#CC3333</color>
+    <color name="color_btn_green">#33CC00</color>
+    <color name="color_LightGray">#b4b4b4</color>
+
+    <color name="blank">#484747</color>
+    <color name="tool_bar">#ffda00</color>
+    <color name="system_bar">#0083b3</color>
+    <color name="swipe">#343A40</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0405A5</color>
+
+    <color name="MintCream">#F5FFFA</color>
+    <color name="cam_result_back">#e6eaee</color>
+    <color name="back">#e6eaee</color>
+    <color name="White">#FFFFFF</color>
+    <color name="passport_title">#01A6E6</color>
+    <color name="passport_txt">#373A3C</color>
+
+    <color name="color_bbl">#003399</color>
+    <color name="color_dialog_background">#C6313533</color>
+    <color name="color_dialogbg">#999999</color>
+    <color name="color_BusinessSilver_K5">#F5F5F5</color>
+    <color name="color_BusinessSilver_K15">#E3E3E3</color>
+    <color name="color_BusinessSilver_K60">#868686</color>
+    <color name="color_BusinessSilver_K85">#4A4A49</color>
+
+    <color name="color_SkyBlue_C90">#00A6E6</color>
+    <color name="color_SkyBlue_C70">#04BAEE</color>
+
+    <color name="color_PreciousBlue_M30_K60">#00446B</color>
+    <color name="color_PreciousBlue_M40_K70">#001354</color>
+    <color name="color_PreciousBlue_M45_K80">#002240</color>
+    <color name="color_PreciousBlue_M50_K85">#001835</color>
+    <color name="color_PreciousBlue_M60_K90">#000B28</color>
+    <color name="baybrown">#6F5F5E</color>
+    <color name="bayyellow">#FFD500</color>
+    <color name="greyish_brown">#4d4d4d</color>
+    <color name="white">#ffffff</color>
+    <color name="dialog_background">#EAFFFFFF</color>
+</resources>

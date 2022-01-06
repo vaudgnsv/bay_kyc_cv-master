@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="480dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_param1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/krungsri_con_bol"
+                    android:text="TextView"
+                    android:textColor="@color/greyish_brown"
+                    android:textSize="24px" />
+
+                <TextView
+                    android:id="@+id/txt_param2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/krungsri_con_bol"
+                    android:text="TextView"
+                    android:textColor="@color/greyish_brown"
+                    android:textSize="24px" />
+
+                <TextView
+                    android:id="@+id/txt_param3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/krungsri_con_bol"
+                    android:text="TextView"
+                    android:textColor="@color/greyish_brown"
+                    android:textSize="24px" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/check_btn1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:scaleX="1.6"
+                        android:scaleY="1.6"
+                        android:theme="@style/AppTheme" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt_consent1_th"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/krungsri_con_bol"
+                            android:text="TextView"
+                            android:textColor="@color/greyish_brown"
+                            android:textSize="24px" />
+
+                        <TextView
+                            android:id="@+id/txt_consent1_en"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="2dp"
+                            android:fontFamily="@font/krungsri_con_bol"
+                            android:text="TextView"
+                            android:textColor="@color/color_gray"
+                            android:textSize="24px"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/check_btn2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:scaleX="1.6"
+                        android:scaleY="1.6"
+                        android:theme="@style/AppTheme" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt_consent2_th"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/krungsri_con_bol"
+                            android:text="TextView"
+                            android:textColor="@color/greyish_brown"
+                            android:textSize="24px" />
+
+                        <TextView
+                            android:id="@+id/txt_consent2_en"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="2dp"
+                            android:fontFamily="@font/krungsri_con_bol"
+                            android:text="TextView"
+                            android:textColor="@color/color_gray"
+                            android:textSize="24px"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/check_btn3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:scaleX="1.6"
+                        android:scaleY="1.6"
+                        android:theme="@style/AppTheme" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt_consent3_th"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/krungsri_con_bol"
+                            android:text="TextView"
+                            android:textColor="@color/greyish_brown"
+                            android:textSize="24px" />
+
+                        <TextView
+                            android:id="@+id/txt_consent3_en"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="2dp"
+                            android:fontFamily="@font/krungsri_con_bol"
+                            android:text="TextView"
+                            android:textColor="@color/color_gray"
+                            android:textSize="24px"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txt_param4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/krungsri_con_bol"
+                    android:text="TextView"
+                    android:textColor="@color/greyish_brown"
+                    android:textSize="24px" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/pdpa_qr" />
+
+                <TextView
+                    android:id="@+id/txt_param5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/krungsri_con_bol"
+                    android:text="TextView"
+                    android:textColor="@color/greyish_brown"
+                    android:textSize="24px" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/krungsri_con_bol"
+                        android:text="   1."
+                        android:textColor="@color/greyish_brown"
+                        android:textSize="24px" />
+
+                    <TextView
+                        android:id="@+id/txt_param5_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/krungsri_con_bol"
+                        android:text="TextView"
+                        android:textColor="@color/greyish_brown"
+                        android:textSize="24px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/krungsri_con_bol"
+                        android:text="   2."
+                        android:textColor="@color/greyish_brown"
+                        android:textSize="24px" />
+
+                    <TextView
+                        android:id="@+id/txt_param5_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/krungsri_con_bol"
+                        android:text="TextView"
+                        android:textColor="@color/greyish_brown"
+                        android:textSize="24px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/krungsri_con_bol"
+                        android:text="   3."
+                        android:textColor="@color/greyish_brown"
+                        android:textSize="24px" />
+
+                    <TextView
+                        android:id="@+id/txt_param5_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/krungsri_con_bol"
+                        android:text="TextView"
+                        android:textColor="@color/greyish_brown"
+                        android:textSize="24px" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/button_cancel"
+                    android:layout_width="160dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_round_cancel"
+                    android:fontFamily="@font/krungsri_con_med"
+                    android:text="ยกเลิก"
+                    android:textColor="#ffdd00"
+                    android:textSize="20sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/btn_ok"
+                    android:layout_width="160dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_round_ok"
+                    android:fontFamily="@font/krungsri_con_med"
+                    android:text="ยินยอม"
+                    android:textColor="@color/greyish_brown"
+                    android:textSize="20sp" />
+            </FrameLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

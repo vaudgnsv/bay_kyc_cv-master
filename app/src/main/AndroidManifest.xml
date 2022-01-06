@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thaivan.bay.branch">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.permission.INTERACT_ACROSS_USERS" />
+
+    <permission android:name="android.permission.SET_TIME" />
+
+    <uses-permission android:name="smartpos.deviceservice.permission.system.operation" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CPAYSDK_SILENT_INSTALL" />
+    <uses-permission android:name="android.permission.CPAYSDK_SYSTEM_MODULE" />
+    <uses-permission android:name="android.permission.CPAYSDK_VERSION_MODULE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" /> <!-- 密码键盘权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_PINPAD_MODULE" /> <!-- 刷卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_SWIPE_MODULE" /> <!-- POBC权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_PBOC_MODULE" /> <!-- 新PBOC权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_NEW_PBOC_MODULE" /> <!-- IC卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_IC_MODULE" /> <!-- 非接卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_RF_MODULE" /> <!-- 打印机权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_PRINTER_MODULE" /> <!-- 系统设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_CASHBOX_MODULE" /> <!-- 客显设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_CUSTOMER_DISPLAY_MODULE" /> <!-- M1卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_M1_MODULE" /> <!-- MODEM设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_MODEM_MODULE" /> <!-- PSAM卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_PSAM_MODULE" /> <!-- 串口设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_SERIAL_PORT_MODULE" /> <!-- 辅屏设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_OLED_MODULE" /> <!-- 身份证设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_ID_MODULE" /> <!-- LCD设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_LCD_MODULE" /> <!-- 安全模块权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_SAFE_MODULE" /> <!-- MEM4442卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_MEM4442_MODULE" /> <!-- MEM102卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_MEM102_MODULE" /> <!-- MEM1608卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_MEM1608_MODULE" /> <!-- MEMAT24C02卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_MEMAT24C02_MODULE" /> <!-- 版本获取权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_VOICE_MODULE" /> <!-- 静默安装应用接口权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_QUICK_SCAN" /> <!-- MEM4428卡设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_MEM4428_MODULE" /> <!-- WIFI探针设备权限 -->
+    <uses-permission android:name="android.permission.CPAYSDK_WIFI_PROBE_MODULE" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:icon="@drawable/images_2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".cv.DopaActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".blink.FaceMessageActivity" />
+        <activity android:name=".AutoPicActivity" />
+        <activity android:name=".PDPAActivity" />
+        <activity android:name=".cv.Dopa_PDPAActivity" />
+        <activity android:name=".TNCActivity" />
+        <activity android:name=".InfoActivity" />
+        <activity
+            android:name=".RtnActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".ReadTHIDActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".KeyinActivity" />
+        <activity android:name=".Password2Activity" />
+        <activity android:name=".FaceCompActivity" />
+        <activity android:name=".IDresultActivity" />
+        <activity
+            android:name=".ScanQrActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".CamfaceActivity"
+            android:configChanges="orientation" />
+        <activity android:name=".KMAActivity" />
+        <activity
+            android:name=".SuccessActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".cv.Dopa_SuccessActivity" />
+        <activity android:name=".cv.Dopa_resultActivity"/>
+        <activity android:name=".FailActivity" />
+        <activity android:name=".cv.Dopa_IDresultActivity" />
+        <activity
+            android:name=".scan.CaptureExtends"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <!-- Block Home Key -->
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".blink.RealTimeFaceDetectionActivity" />
+
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="face" />
+    </application>
+
+</manifest>

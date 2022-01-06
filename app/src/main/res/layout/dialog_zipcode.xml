@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alert"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/krungsri_con_med"
+            android:layout_height="33.5dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="กรอกรหัสไปรษณีย์" />
+
+        <EditText
+            android:id="@+id/edit_zipcode"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="8.5dp"
+            android:paddingLeft="12dp"
+            android:layout_width="246.5dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/krungsri_con_med"
+            android:ems="10"
+            android:maxLength="5"
+            android:inputType="number"
+            android:background="@drawable/border_gray"
+            android:hint="รหัสไปรษณีย์ (5 หลัก)" />
+
+        <TextView
+            android:id="@+id/txt_alert"
+            android:layout_marginLeft="62dp"
+            android:layout_marginRight="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="23.5dp"
+            android:fontFamily="@font/krungsri_con_med"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textColor="#7c1313"
+            android:text="กรุณากรอกข้อมูลให้ถูกต้อง"
+            android:visibility="gone"/>
+
+        <Button
+            android:layout_width="232dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8.5dp"
+            android:layout_marginBottom="11.5dp"
+            android:background="@drawable/btn_round_ok"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/krungsri_con_med"
+            android:layout_below="@id/txt_reason"
+            android:gravity="center"
+            android:onClick="zipCode"
+            android:text="บันทึก"
+            android:textColor="@color/greyish_brown"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</RelativeLayout>

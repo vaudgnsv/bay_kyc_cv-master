@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#484747"
+    tools:context="com.thaivan.bay.branch.ScanQrActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toolbar"
+            android:minHeight="?attr/actionBarSize"
+            app:popupTheme="@style/ToolAppTheme">
+
+            <TextView
+                android:id="@+id/toolbar_btn"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="left"
+                android:background="@drawable/left"
+                android:onClick="back_menu"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/krungsri_con_bol"
+                android:text="สแกน QR code"
+                android:textColor="@color/greyish_brown"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/toolbar_btn2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"
+                android:onClick="rotate"
+                android:background="@drawable/camera_rotate"
+                android:visibility="visible" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.journeyapps.barcodescanner.DecoratedBarcodeView
+                android:id="@+id/zxing_barcode_scanner"
+                android:layout_gravity="center"
+                android:layout_width="295.5dp"
+                android:layout_height="323dp"
+                android:layout_marginTop="75dp"
+                app:zxing_scanner_layout="@layout/custom_barcode_scanner">
+
+            </com.journeyapps.barcodescanner.DecoratedBarcodeView>
+
+            <TextView
+                android:id="@+id/textView"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33dp"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/krungsri_con_med"
+                android:text="คว่ำหน้าจอให้ตำแหน่ง QR code อยู่ตรงกลาง" />
+
+            <Button
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:text="ระบุรหัสอ้างอิง"
+                android:layout_marginTop="33dp"
+                android:layout_gravity="center"
+                android:background="@drawable/roundcorner_gray"
+                android:textColor="@color/baybrown"
+                android:fontFamily="@font/krungsri_con_med"
+                android:textSize="16sp"
+                android:onClick="qr_keyin"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

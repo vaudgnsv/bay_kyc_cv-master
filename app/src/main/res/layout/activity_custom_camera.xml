@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#484747">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ToolAppTheme">
+
+        <TextView
+            android:id="@+id/toolbar_btn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="left"
+            android:background="@drawable/left"
+            android:onClick="back_menu"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/krungsri_con_bol"
+            android:text="Live check"
+            android:textColor="@color/greyish_brown"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/toolbar_btn2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:onClick="rotate"
+            android:background="@drawable/camera_rotate"
+            android:visibility="invisible" />
+
+    </androidx.appcompat.widget.Toolbar>
+    <com.thaivan.bay.branch.scan.FaceCameraPreview
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+            <RelativeLayout
+                android:id="@+id/badge2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center|bottom"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp">
+
+                    <Button
+                        android:id="@+id/btn_cancel"
+                        android:layout_width="160dp"
+                        android:layout_height="55dp"
+                        android:layout_alignParentStart="true"
+                        android:background="@drawable/btn_round_cancel"
+                        android:fontFamily="@font/krungsri_con_med"
+                        android:text="ยกเลิก"
+                        android:textColor="#ffdd00"
+                        android:textSize="20sp"/>
+
+                    <Button
+                        android:id="@+id/btn_ok"
+                        android:layout_width="160dp"
+                        android:layout_height="55dp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/btn_round_ok"
+                        android:fontFamily="@font/krungsri_con_med"
+                        android:text="ยอมรับ"
+                        android:textColor="@color/greyish_brown"
+                        android:textSize="20sp"/>
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

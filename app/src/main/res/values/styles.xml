@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/bayyellow</item>
+        <item name="colorPrimaryDark">@color/bayyellow</item>
+        <item name="colorAccent">@color/bayyellow</item>
+    </style>
+    <style name="normal_button">
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="background">@drawable/btn_selector</item>
+    </style>
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="ThemeWithBay" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/layout_bg</item>
+    </style>
+
+    <style name="ThemeWithCorners" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/layout_bg</item>
+    </style>
+
+    <style name="ThemeWithNormal" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/layout_normal_bg</item>
+    </style>
+
+    <style name="ToolAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@android:color/transparent</item>
+    </style>
+
+    <style name="DialogTheme" parent="android:Theme.Dialog">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false
+        </item>
+    </style>
+</resources>

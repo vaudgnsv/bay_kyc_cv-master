@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="84.5dp"
+        android:layout_height="84.5dp"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="69.5dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/group_fail"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/krungsri_con_bol"
+        android:layout_marginTop="20dp"
+        android:text="รายการถูกยกเลิก"
+        android:textColor="@color/greyish_brown"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/txt_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/krungsri_con_med"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="-6sp"
+        android:text="ข้อมูลบัตรประชาชนไม่ตรงกับ\nที่คุณลงทะเบียนไว้"
+        android:textColor="@color/greyish_brown"
+        android:textSize="18sp" />
+
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="138.5dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="17dp"
+        android:background="#ffe200" />
+
+    <TextView
+        android:id="@+id/txt_text2"
+        android:layout_width="311.5dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/krungsri_con_med"
+        android:text="กรุณาตรวจสอบและทำรายการใหม่"
+        android:textSize="18sp"
+        android:textColor="@color/greyish_brown"
+        android:lineSpacingExtra="-6sp"
+        android:background="@drawable/success_round" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff" >
+
+        <Button
+            android:id="@+id/okbtn"
+            android:layout_width="280.5dp"
+            android:layout_height="55.5dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/krungsri_con_med"
+            android:onClick="Finish"
+            android:text="ตกลง"
+            android:textSize="20sp"
+            android:textColor="@color/greyish_brown"
+            android:background="@drawable/btn_round_ok" />
+
+    </RelativeLayout>
+</LinearLayout>

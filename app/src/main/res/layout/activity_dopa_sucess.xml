@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="84.5dp"
+        android:layout_height="84.5dp"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/group_success"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/krungsri_con_bol"
+        android:layout_marginTop="30dp"
+        android:text="ตรวจสอบข้อมูลสำเร็จ"
+        android:textColor="@color/greyish_brown"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/krungsri_con_med"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="-6sp"
+        android:text="ระบบกำลังพิมพ์ใบบันทึกรายการ"
+        android:textColor="@color/greyish_brown"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/okbtn"
+            android:layout_width="280.5dp"
+            android:layout_height="55.5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/btn_round_ok"
+            android:fontFamily="@font/krungsri_con_med"
+            android:gravity="center_horizontal"
+            android:onClick="Finish"
+            android:text="ตกลง"
+            android:textColor="@color/greyish_brown"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</LinearLayout>

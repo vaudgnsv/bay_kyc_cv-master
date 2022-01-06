@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "930382922357",
+    "project_id": "bay-kyc",
+    "storage_bucket": "bay-kyc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930382922357:android:a5fb72946d16957a6a2e3c",
+        "android_client_info": {
+          "package_name": "com.thaivan.bay.branch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930382922357-3tjrtim50j6dbqvj7gfjpepr6k68ac09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEXs7tqCpxEDkdkxJpQYm-FPQudVxFOCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930382922357-3tjrtim50j6dbqvj7gfjpepr6k68ac09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

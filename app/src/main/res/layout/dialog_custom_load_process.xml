@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/dialog_background"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/anim_loading" />
+
+        <TextView
+            android:id="@+id/txt_msg"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="66.5dp"
+            android:textSize="20sp"
+            android:textColor="@color/greyish_brown"
+            android:fontFamily="@font/krungsri_con_med"
+            android:lineSpacingExtra="-7.5sp"
+            android:text="อยู่ระหว่างประมวลผล\nกรุณาอย่าดึงบัตรออก"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

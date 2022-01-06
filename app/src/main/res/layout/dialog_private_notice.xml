@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="#484747">
+
+    <LinearLayout
+        android:id="@+id/linear_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alert"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/alert"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/krungthai_fast_regular"
+                android:text="@string/privacy_notice"
+                android:textColor="@color/color_black"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/qr_private" />
+
+            <Button
+                android:id="@+id/toscan"
+                android:layout_width="307.5dp"
+                android:layout_height="55dp"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/krungsri_con_bol"
+                android:gravity="center_horizontal"
+                android:onClick="scan"
+                android:text="ปิด"
+                android:textSize="20sp"
+                android:background="@drawable/btn_round_ok"
+                android:textColor="@color/greyish_brown" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
